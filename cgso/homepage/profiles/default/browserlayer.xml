@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="cgso.homepage"
+        interface="cgso.homepage.interfaces.IProductSpecific" />
+</layers>
