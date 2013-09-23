@@ -1,6 +1,7 @@
 *.pyc
 *.pyo
 *.egg-info
+*.egg
 *.db
 bin/
 parts/
@@ -11,4 +12,3 @@ dev/
 ._*
 .DS_Store
 *~
-site.cfg
