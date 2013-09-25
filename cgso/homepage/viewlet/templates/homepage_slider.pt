@@ -1,0 +1,12 @@
+<div tal:attributes="style viewlet/style" id="cgso-homepage-homepage_slider">
+    <div class="cgso-viewlet unslider">
+    <ul>
+            <li class="unslider-slide"
+                tal:repeat="item viewlet/contents"
+                tal:attributes="style item/slide_css">
+                <div class="unslider-slide-content">
+                                    </div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="cgso.homepage">
+<body>
+
+
+<metal:main fill-slot="content-core">
+  <metal:content-core define-macro="content-core">
+  <div class="homepage-navigation">
+      <div>
+          <a> Menu Utama </a>
+      <a> Laman Interaktif </a>
+      <a> Temuduga Tapisan Keselamatan </a>
+  </div>
+      <div>
+      <a> Makluman </a>
+      <a> Tender & Sebutharga </a>
+      <a> MBJ </a>
+  </div>
+  </div>
+
+  <div class="homepage-news">
+      <h3> Terkini </h3>
+      <li tal:repeat="item view/news_items">
+          <ul tal:content="item/Title">Some news</ul>
+      </li>
+  </div>
+
+  <div class="links">
+      <a>Webmail</a>
+      <a>HRMIS</a>
+      <a>e-Vetting</a>
+      <a>Intranet</a>
+  </div>
+
+
+  </metal:content-core>
+</metal:main>
+
+</body>
+</html>
+

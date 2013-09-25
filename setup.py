@@ -26,6 +26,7 @@ setup(name='cgso.homepage',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.js.unslider',
           'plone.app.dexterity [grok, relations]',
           'plone.namedfile [blobs]',
           'collective.grok',
@@ -34,6 +35,8 @@ setup(name='cgso.homepage',
           'plone.app.multilingual',
           'plone.multilingualbehavior',
           'plone.app.versioningbehavior',
+          'collective.sliderfields',
+          'collective.js.unslider',
           # -*- Extra requirements: -*-
       ],
       extras_require={

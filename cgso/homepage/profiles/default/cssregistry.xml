@@ -3,4 +3,25 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+
+ <stylesheet title=""
+     id="++resource++cgso.homepage/cgso-slider.css"
+    media="screen" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""/>
+
+
+
+ <stylesheet title=""
+     id="++resource++cgso.homepage/cgso.css"
+    media="screen" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""/>
+
+
+
+
+
+
+
 </object>

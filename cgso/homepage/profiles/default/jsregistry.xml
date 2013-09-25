@@ -3,4 +3,13 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+ <javascript id="++resource++cgso.homepage/cgso-homepage.js" 
+        cacheable="True"
+        enabled="True"
+        cookable="True"
+        compression="safe"
+        inline="False"
+        authenticated="False"/>
+
+
 </object>
