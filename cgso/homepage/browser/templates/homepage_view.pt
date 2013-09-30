@@ -10,31 +10,56 @@
 
 <metal:main fill-slot="content-core">
   <metal:content-core define-macro="content-core">
-  <div class="homepage-navigation">
-      <div>
-          <a> Menu Utama </a>
-      <a> Laman Interaktif </a>
-      <a> Temuduga Tapisan Keselamatan </a>
-  </div>
-      <div>
-      <a> Makluman </a>
-      <a> Tender & Sebutharga </a>
-      <a> MBJ </a>
-  </div>
+  <div class="homepage-container2">
+  <section class="homepage-searchbox">
+  </section class="homepage-search-box">
+  <section class="homepage-links-above">
+      <a href="#">STAFF CGSO</a>
+      <a href="#">PENJAWAT AWAM</a>
+      <a href="#">SASARAN PENTING</a>
+      <a href="#">AWAM</a>
+      <a href="#">PUSAT LATIHAN</a>
+
+  </section>
   </div>
 
-  <div class="homepage-news">
+
+  <div class="homepage-container1">
+  <section class="homepage-navigation">
+      <div>
+          <a href="#" class="nav1"><img
+              src="++resource++cgso.homepage/img/home.png"  alt="Menu Utama" title="Menu Utama"/> </a>
+          <a href="#" class="nav2"><img src="++resource++cgso.homepage/img/multimedia.png" alt="Laman Interaktif"  title="Laman Interaktif"> </a>
+          <a href="#" class="nav3"><img  src="++resource++cgso.homepage/img/users.png"  alt="Temuduga Tapisan Keselamatan"  title="Temuduga Tapisan Keselamatan"> </a>
+  </div>
+      <div>
+      <a href="#" class="nav4"> <img src="++resource++cgso.homepage/img/volume.png" alt="Makluman" title="Makluman"/> </a>
+      <a href="#" class="nav5"><img src="++resource++cgso.homepage/img/text.png" alt="Tender & Sebutharga" title="Tender & Sebutharga"</a>
+      <a href="#" class="nav6"><img src="++resource++cgso.homepage/img/dev.png" alt="MBJ" title="MBJ"/> </a>
+  </div>
+  </section>
+
+
+
+  <section class="homepage-news">
+      <div>
       <h3> Terkini </h3>
-      <li tal:repeat="item view/news_items">
-          <ul tal:content="item/Title">Some news</ul>
-      </li>
+      <ul tal:define="items view/news_items">
+          <li tal:repeat="item items">
+          <a tal:content="item/Title" tal:attributes="href
+              item/absolute_url_path">
+          </a>
+          </li>
+      </ul>
   </div>
+  </section>
 
-  <div class="links">
-      <a>Webmail</a>
-      <a>HRMIS</a>
-      <a>e-Vetting</a>
-      <a>Intranet</a>
+  <section class="homepage-links">
+      <a href="#" class=link-1>Webmail</a>
+      <a href="#" class=link-2>HRMIS</a>
+      <a href="#" class=link-3>e-Vetting</a>
+      <a href="#" class=link-4>Intranet</a>
+  </section>
   </div>
 
 

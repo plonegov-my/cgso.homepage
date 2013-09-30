@@ -12,3 +12,5 @@ dev/
 ._*
 .DS_Store
 *~
+site.cfg
+.sass-cache/

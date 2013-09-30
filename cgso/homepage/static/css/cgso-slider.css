@@ -18,13 +18,19 @@ float: left;
  }
 
  /*custom */
-.cgso-viewlet .dots {
+#cgso-homepage-homepage_slider 
+{
+    margin-top:20px;
+    margin-bottom:4px;
+}
+
+#cgso-homepage-homepage_slider .dots {
         position: absolute;
         left: 0;
         right: 0;
         bottom: 20px;
     }
-.cgso-viewlet .dots li {
+#cgso-homepage-homepage_slider .dots li {
             display: inline-block;
             width: 10px;
             height: 10px;
@@ -43,7 +49,7 @@ float: left;
             transition: background .5s, opacity .5s;
         }
 
-.cgso-viewlet .dots li.active {
+#cgso-homepage-homepage_slider .dots li.active {
                 background: #fff;
                 opacity: 1;
             }

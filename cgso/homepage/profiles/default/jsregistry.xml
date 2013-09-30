@@ -3,7 +3,7 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
- <javascript id="++resource++cgso.homepage/cgso-homepage.js" 
+    <javascript id="++resource++cgso.homepage/js/cgso-homepage.js" 
         cacheable="True"
         enabled="True"
         cookable="True"

@@ -1,0 +1,109 @@
+@import "init";
+@import "layout";
+@import "modules";
+@import "compass/utilities/general/clearfix";
+
+//hide 
+.portaltype-cgso-homepage-homepage{
+    .description, .documentFirstHeading, #portal-breadcrumbs  {
+    display: none;
+    }
+}
+
+
+//below slider
+.homepage-container1 {
+$zen-column-count: 9;
+  $zen-gutter-width: 2px;
+    @include zen-grid-container;
+    a {
+
+        border:none!important;
+    }
+}
+
+
+
+.homepage-navigation {
+
+    @include zen-grid-item(3, 2);
+    a {
+        margin:8px;
+
+    }
+}
+
+.homepage-news {
+    @include zen-grid-item(2, 6);
+    font-size:14px;
+
+    h3 { 
+        text-align: center;
+    }
+
+    }
+
+.homepage-links {
+    @include zen-grid-item(1, 1, right);
+    a {
+        display:block;
+        text-align:center;
+        color: rgb(29, 29, 29)!important;
+        font-size:18px;
+        padding: 5px 0;
+        margin:4px;
+       
+      }
+     .link-1 {
+         background-color:rgb(162, 162, 162);
+        }
+     .link-2{
+         background-color:rgb(239, 244, 235);
+        }
+     .link-3 {
+         background-color:rgb(162, 162, 162);
+        }
+     .link-4 {
+         background-color:rgb(239, 244, 235);
+        }
+
+}
+
+.homepage-container2 {
+
+$zen-column-count: 6;
+  $zen-gutter-width: 2px;
+    @include zen-grid-container;
+
+}
+.homepage-searchbox {
+    @include zen-grid-item(2, 1);
+
+    .livesearchContainer{
+
+        width:500px;;
+    }
+
+    #LSResult {
+        left: 0px;
+        margin: 0;
+        width:500px;;
+        overflow-y: hidden scroll;
+        overflow-x: hidden;
+        height:200px;
+        display:none;
+    }
+
+}
+
+.homepage-links-above {
+    @include zen-grid-item(4, 4);
+
+    a {
+    padding-right: 8px;
+    border-right-style: solid;
+    border-width:1px;
+    border-color:rgb(162, 162, 162);
+        border-bottom:none!important;
+    }
+}
