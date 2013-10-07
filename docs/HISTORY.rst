@@ -1,7 +1,7 @@
 Changelog
 =========
 
-'1.0' - Unreleased
----------------------
+1.0 (2013-10-07)
+----------------
 
  - Initial package generated using inigo.templer
