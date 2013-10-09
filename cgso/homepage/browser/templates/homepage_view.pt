@@ -29,12 +29,18 @@
       <div>
           <a href="#" class="nav1"><img
               src="++resource++cgso.homepage/img/home.png"  alt="Menu Utama" title="Menu Utama"/> </a>
-          <a href="#" class="nav2"><img src="++resource++cgso.homepage/img/multimedia.png" alt="Laman Interaktif"  title="Laman Interaktif"> </a>
-          <a href="#" class="nav3"><img  src="++resource++cgso.homepage/img/users.png"  alt="Temuduga Tapisan Keselamatan"  title="Temuduga Tapisan Keselamatan"> </a>
+          <a href="#" class="nav2"><img
+              src="++resource++cgso.homepage/img/multimedia.png" alt="Laman
+              Interaktif"  title="Laman Interaktif"/> </a>
+          <a href="#" class="nav3"><img
+              src="++resource++cgso.homepage/img/users.png"  alt="Temuduga
+              Tapisan Keselamatan"  title="Temuduga Tapisan Keselamatan"/> </a>
   </div>
       <div>
       <a href="#" class="nav4"> <img src="++resource++cgso.homepage/img/volume.png" alt="Makluman" title="Makluman"/> </a>
-      <a href="#" class="nav5"><img src="++resource++cgso.homepage/img/text.png" alt="Tender & Sebutharga" title="Tender & Sebutharga"</a>
+      <a href="#" class="nav5"><img
+          src="++resource++cgso.homepage/img/text.png" alt="Tender &
+          Sebutharga" title="Tender & Sebutharga"/></a>
       <a href="#" class="nav6"><img src="++resource++cgso.homepage/img/dev.png" alt="MBJ" title="MBJ"/> </a>
   </div>
   </section>
