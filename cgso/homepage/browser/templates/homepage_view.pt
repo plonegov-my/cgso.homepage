@@ -12,7 +12,7 @@
   <metal:content-core define-macro="content-core">
   <div class="homepage-container2">
   <section class="homepage-searchbox">
-  </section class="homepage-search-box">
+  </section>
   <section class="homepage-links-above">
       <a href="#">STAFF CGSO</a>
       <a href="#">PENJAWAT AWAM</a>
