@@ -30,7 +30,7 @@ from cgso.homepage import MessageFactory as _
 class Ihomepage(form.Schema, IImageScaleTraversable):
     """
     """
-    width = schema.Int(title=_(u'Width'), default=1024)
+    width = schema.Int(title=_(u'Width'), default=1049)
     height = schema.Int(title=_(u'Height'), default=350)
 
 
@@ -54,15 +54,4 @@ class Ihomepage(form.Schema, IImageScaleTraversable):
         ),
         required=False
     )
-
-    languageindependent('slider_type')
-    slider_type = schema.Choice(
-        title=_(u'Slider type'),
-        default='normal',
-        values=['normal','full-width'],
-        required=True,
-        description=_(u'Normal slider requires 510x330px images, Full ' +
-                    u'Width slider requires 782x330px images')
-    )
-
 

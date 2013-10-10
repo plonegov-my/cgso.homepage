@@ -15,9 +15,6 @@ class homepage_slider(grok.Viewlet):
     grok.template('homepage_slider')
     grok.layer(IProductSpecific)
 
-    def available(self):
-        return True
-
     def _get_objects(self):
         if not self.context.slider_items:
             return []
@@ -26,10 +23,16 @@ class homepage_slider(grok.Viewlet):
     def contents(self):
         data = []
         for obj in self._get_objects():
-            title = obj.Title()
-            description = obj.Description()
+            if obj is None:
+                continue
+            title = getattr(obj, 'slider_title', None)
+            if not title:
+                title = obj.Title()
+            description = getattr(obj, 'slider_description', None)
+            if not description:
+                description = obj.Description()
             scales = obj.restrictedTraverse('@@images')
-            image = scales.scale('image', width=self.context.width,
+            image = scales.scale('slider_image', width=self.context.width,
                                     height=self.context.height,
                                     direction='down')
 
